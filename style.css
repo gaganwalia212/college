@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+body{
+	font-family: 'Rajdhani', sans-serif;
+	height: 100%;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+}
+h2,h3,h4,h5,h6{
+	font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+	background: #C02727;
+	width: 13rem;
+	height: 100vh;
+	display: inline-block;
+	position: absolute;
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 60%;
+	padding-top: 3rem;
+	padding-left: 1rem;
+	text-align: left;
+}
+
+nav ul li{
+	font-size: 1.2rem;
+	color: #F3F2B4;
+}
+
+nav ul a:link{
+	text-decoration: none;
+	color: #F3F2B4;
+}
+nav ul a:visited{
+	text-decoration: none;
+	color: #F3F2B4;
+}
+nav ul a:hover{
+	text-decoration: none;
+	color: #FFFFD3;
+}
+nav ul li i{
+	margin-right: 0.9rem;
+}
+
+header{
+	position: absolute;
+	display: inline-block;
+	height: 5rem;
+	width: 68.8rem;
+	left: 10rem;
+	z-index: -1;
+	flex-direction: row;
+	background: linear-gradient(0deg, rgba(192,39,39,0.8) 6%, rgba(192,39,39,0.8) 59%);
+	background-size: 100% 100%;
+	color: #FFFFD3;
+
+}
+header div{
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+header div h1{
+	margin: 1rem;
+}
+header img{
+	height: 80%;
+	width: 10%;
+	margin: auto;
+	text-align: left;
+}
+
+.container{
+	position: absolute;
+	top: 0;
+	z-index: -2;
+	width: 78.9rem;
+	height: 30rem;
+	color: white;
+	font-weight: 700;
+
+
+}
+.c0{
+	background: rgb(192,39,39);
+	background: linear-gradient(90deg, rgba(192,39,39,1) 4%, rgba(192,39,39,0.5) 50%,rgba(244,128,109,0.4) 94%), url("img0.jpg") #FFFFD3;
+	background-size: 100% 100%;
+
+}
+.c1{
+	background: rgb(192,39,39);
+	background: linear-gradient(90deg, rgba(192,39,39,1) 4%, rgba(192,39,39,0.5) 50%,rgba(244,128,109,0.4) 94%), url("img1.jpg") #FFFFD3;
+	background-size: 100% 100%;
+
+}
+.c2{
+	background: rgb(192,39,39);
+	background: linear-gradient(90deg, rgba(192,39,39,1) 4%, rgba(192,39,39,0.5) 50%,rgba(244,128,109,0.4) 94%), url("img2.jpg") #FFFFD3;
+	background-size: 100% 100%;
+
+}
+.container h2{
+	position: absolute;
+	top: 10rem;
+	left: 20rem;
+	width: 30rem;
+	font-size: 2.5rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+.notVisible{
+	visibility: hidden;
+}
+
+.vision{
+	position: absolute;
+	top: 30rem;
+	left: 12.5rem;
+	padding: 1rem;
+	text-align: center;
+}
+.vision h3{
+	font-size: 1.6rem;
+	color: #C02727;
+}
+
+
